@@ -21,9 +21,11 @@ After this, I needed to check how to actually use it. I noticed that Android Stu
 
 To use local storage in my `App.kt` file, where our layout lies, I needed to modify the entry points for each specific platform and pass local storage as an argument. In the case of Android, it is `MainActivity.kt`, and in iOS, it is `MainViewController.kt`. After this, essentially, the feature was done.
 
+I think that this feature was basic enough that no special prompts or prompt engineering techniques were required.
+
 #### My Own Code
 The UI of the app was implemented by me. It was pretty straightforward. I leveraged the default UI and just added some text fields, buttons, and polished it a bit. Of course, I had to Google some attributes if I could not figure them out on my own. I chose to build it on my own because I have experience with Flutter, which also has a similar way of building UIs, and I really liked that about Flutter. This approach is much better than the old XML files.
 
 ### Result
-Very basic minimal app.\
-<img src="app.jpg" alt="Kotlin Multiplatform Wizard Screenshot" width="300" />
+Very basic app. I have not encountered any specific technical problems or challenges, except for the hassles with the project build.\
+<img src="app.jpg" alt="App Screenshot" width="300" />
